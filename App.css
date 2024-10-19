@@ -1,0 +1,38 @@
+h1 , img{
+  display: block;
+}
+ 
+ 
+ 
+ 
+.card{
+/* border: 2px solid red; */
+
+  display: flex;
+flex-direction: column;
+  width: 45%;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  
+  /* border: 2px solid red; */
+  
+}
+#title{
+  font-size: 50px;
+  text-align: center;
+  display: block;
+}
+
+button{
+ font-size: 25px;
+  width: 40%;
+  height: 40px;
+  margin-left: 10px;
+}
